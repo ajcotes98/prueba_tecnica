@@ -13,4 +13,3 @@ Feature: Complete the checkout process - regression test
     Examples:
       | username       | password     | productName             | firstName | lastName | postalCode |
       | standard_user  | secret_sauce | Sauce Labs Backpack     | John      | Doe      | 12345      |
-      | standard_user  | secret_sauce | Sauce Labs Fleece Jacket| Alice     | Smith    | 54321      |

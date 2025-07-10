@@ -2,7 +2,7 @@ Feature: User authentication through login
 
 
   @UnsuccessfulLogin
-  Scenario: UnsuccessfulLogin login with valid credentials
+  Scenario: UnsuccessfulLogin login with invalid credentials
     Given the user is on the login page
     When the user logs in with the following credentials:
       | username       | password     |

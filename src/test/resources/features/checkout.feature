@@ -10,7 +10,7 @@ Feature: Complete the checkout process
       | Sauce Labs Backpack   |
 
   @Checkout
-  Scenario: Complete checkout with one product
+  Scenario: Complete checkout
     When they enter their checkout information:
       | firstName | lastName | postalCode |
       | John      | Doe      | 12345      |
