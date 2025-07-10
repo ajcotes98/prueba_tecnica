@@ -5,10 +5,6 @@ import net.serenitybdd.screenplay.targets.Target;
 import org.openqa.selenium.By;
 
 public class AddProductPage extends PageObject {
-    public static Target BUTTON_SELECT_PRODUCT(String productName) {
-        return Target.the("Select the product " + productName)
-                .located(By.xpath("//div[normalize-space()='" + productName + "']"));
-    }
     public static Target BUTTON_ADD_BACKPACK =  Target.the("Add back pack").located(By.xpath("//button[@id='add-to-cart-sauce-labs-backpack']"));
     public static Target BUTTON_ADD_BOLTSHIRT =  Target.the("Add Bolt T-Shirt").located(By.xpath("//button[@id='add-to-cart-sauce-labs-bolt-t-shirt']"));
     public static Target BUTTON_ADD_FLECEE =  Target.the("Add Fleece Jacket").located(By.xpath("//button[@id='add-to-cart-sauce-labs-fleece-jacket']"));

@@ -11,5 +11,5 @@ Feature: Complete the checkout process - regression test
     Then the order should be successfully completed
 
     Examples:
-      | username       | password     | productName             | firstName | lastName | postalCode |
-      | standard_user  | secret_sauce | Sauce Labs Backpack     | John      | Doe      | 12345      |
+      | username      | password     | productName         | firstName | lastName | postalCode |
+      | standard_user | secret_sauce | Sauce Labs Backpack | Anibal    | Cotes    | 12345      |
