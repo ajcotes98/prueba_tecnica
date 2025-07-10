@@ -13,5 +13,5 @@ Feature: Complete the checkout process
   Scenario: Complete checkout
     When they enter their checkout information:
       | firstName | lastName | postalCode |
-      | John      | Doe      | 12345      |
+      | Anibal    | Cotes    | 12345      |
     Then the order should be successfully completed
